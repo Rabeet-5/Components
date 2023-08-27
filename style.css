@@ -1,0 +1,20 @@
+.bg-image{
+    animation: animateBackground 5s infinite linear;
+}
+
+@keyframes animateBackground {
+    0%, 100% {
+        transform: translateY(10%);
+    }
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+.QA_COLOR{
+    background-color: rgb(209, 199, 199);;
+}
+
+
+
+
